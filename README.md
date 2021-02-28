@@ -35,7 +35,9 @@ browser <---> cloudflare <--->  b6k.pickoma.com
 
 可以使用`Bookmarklet`快速加入書籤（需先登入）。
 
+```
 javascript:(function(){     let current_url = encodeURIComponent(document.URL);     window.open(`https://b6k.pickoma.com/#/quickadd/${current_url}`,"_blank","width=200,height=200")%20})();%20%20//%20https://en.wikipedia.org/wiki/Bookmarklet
+```
 
 # 注意事項
 
