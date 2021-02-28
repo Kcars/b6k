@@ -47,13 +47,13 @@ javascript:(function(){     let current_url = encodeURIComponent(document.URL); 
 
 * 訪客的檢視頁面
 
-* 加入預覽圖
+* 加入預覽圖  
   目前沒有實作的原因是因為這會多花錢
 
-* 加強搜尋功能
+* 加強搜尋功能  
   `google datastore`並沒有`where in`或是`or`功能，所以有些查詢會很難處理
 
-* 統計數據
+* 統計數據  
   可以使用`google bigquery`來定時處理
 
 # 截圖
